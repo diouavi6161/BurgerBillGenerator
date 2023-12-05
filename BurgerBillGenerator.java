@@ -1,5 +1,3 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 import java.util.Scanner;
 
 public class BurgerBillGenerator {
@@ -32,7 +30,7 @@ public class BurgerBillGenerator {
     }
 
     private static double calculateTotalCost(String BurgerType, String BurgerSize, String topping, int quantity) {
-        // Dummy cost values for demonstration purposes
+        
         double Cost = 0;
 
         switch(BurgerType){
